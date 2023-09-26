@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Documente Secretariat DGF</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Documente Secretariat DGF</h1> <!-- Adăugăm titlul aici -->
+        <div class="main">
+            <form id="upload-form">
+                <input type="file" id="file">
+                <input type="button" value="Upload" onclick="uploadDocument()">
+
+            </form>
+        </div>
+    </center>
+    <!-- ... Restul codului HTML ... -->
+
+<table id="document-table">
+    <thead>
+        <tr>
+            <th>Nr</th>
+            <th>Denumire</th>
+            <th>Document Salvat</th>
+            <th>Acțiune</th>
+        </tr>
+    </thead>
+    <tbody id="document-table-body">
+        <!-- Aici vei adăuga rândurile pentru documente încărcate -->
+    </tbody>
+</table>
+
+<!-- ... Restul codului HTML ... -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>

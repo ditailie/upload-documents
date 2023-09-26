@@ -1,0 +1,108 @@
+﻿body {
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Asta va asigura acoperirea întregului fundal cu imaginea */
+    margin: 0; /* Eliminăm marginile implicite ale corpului */
+    font-family: Arial, sans-serif;
+}
+/* Adaugă stiluri pentru titlu */
+h1 {
+    text-align: center; /* Aliniere la centru */
+    font-weight: bold; /* Text în bold */
+    border: 2px solid #000; /* Bordură */
+    padding: 10px; /* Spațiere */
+    border-radius: 10px; /* Coloane rotunjite */
+    background-color: #f2f2f2; /* Fundal gri */
+    margin: 20px auto; /* Centrare orizontală și spațiere verticală */
+    width: 80%; /* Lățimea maximă */
+}
+
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Afișăm conținutul centralizat pe întreaga înălțime a ecranului */
+}
+
+.main {
+    width: 460px;
+    border: 2px solid #000;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-radius: 12px;
+    text-align: center; /* Centrare text în container */
+}
+
+#file::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#file, input[type="button"]{
+    width: 90%;
+    height: 70px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border: 1px solid #000;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    transition: .5s all;
+    display: block;
+    margin: 10px auto; /* Centrare elemente */
+}
+
+#file {
+    width: 84%;
+    height: 55px;
+    padding-top: 23px;
+    padding-left: 20px;
+}
+
+    #file:hover, input[type="button"]:hover{
+        cursor: pointer;
+        background-color: #4287f5;
+    }
+/* Stilizare pentru tabel */
+#document-table {
+    width: 80%; /* Lățimea tabelului */
+    margin: 0 auto; /* Centrare orizontală */
+    border-collapse: collapse; /* Combinarea marginilor dintre celule */
+    background-color: #fff; /* Fundal alb pentru tabel */
+    border: 1px solid #ccc; /* Bordură subțire */
+    border-radius: 8px; /* Coloane rotunjite */
+    margin-top: 20px; /* Adaugă o margine superioară de 20px */
+}
+
+    #document-table th, #document-table td {
+        padding: 10px; /* Spațiere în celule */
+        text-align: center; /* Aliniere la centru pentru conținut */
+        border: 1px solid #ccc; /* Bordură subțire pentru celule */
+    }
+
+    #document-table th {
+        background-color: #f2f2f2; /* Fundal gri pentru antet */
+        font-weight: bold; /* Text în antet în bold */
+        border-top-left-radius: 8px; /* Colțuri rotunjite pentru colțul de sus-stânga */
+        border-top-right-radius: 8px; /* Colțuri rotunjite pentru colțul de sus-dreapta */
+    }
+
+    #document-table tbody tr:nth-child(even) {
+        background-color: #f9f9f9; /* Fundal gri deschis pentru rândurile pare */
+    }
+
+    #document-table tbody tr:nth-child(odd) {
+        background-color: #ffffff; /* Fundal alb pentru rândurile impare */
+    }
+
+/* Centrare orizontală pentru conținutul paginii */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
